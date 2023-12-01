@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navs{
+    border-bottom: 1px solid gainsboro;
+}
+.bord{
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+}
+.bord a{
+    font-size: 13px;
+    font-weight: 700;
+}
+.social-icons i{
+  font-size: 20px;
+  margin: 0px 5px;
+}
+.social-icons div{
+       border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+}
+.mag-container{
+    background-color: rgb(192, 190, 190);
+    width: 750px;
+    height: 60px;
+    position: relative;
+}
+.mag-container p{
+    position: absolute;
+    top: 30px;
+    margin-left: 20px;
+    color: white;
+}
+.navvs a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+.para {
+    display: flex;
+    justify-content: space-between;
+}
+.para p{
+    line-height: 0px;
+    padding: 0;
+    margin: 0;
+    color: red;
+    font-weight: 700;
+}
+.nav3{
+    background-color: black;
+}
+.nav3-container a{
+color: white;
+text-decoration: none;
+margin: 0px 10px;
+}
+.bords{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+.bords a{
+    font-size: 13px;
+    font-weight: 700;
+}
+.hom{
+    background-color: red;
+    padding: 20px;
+}
+.home{
+     padding: 20px;
+   
+}
