@@ -46,4 +46,26 @@ function allData() {
       });
     });
 }
-allData()
+
+function homeData() {
+  const Api = `${apiUrl}?api-key=${apikey}`;
+  fetch(Api)
+    .then((result) => result.json())
+    .then((data) => {
+      console.log(data.news);
+      let allNews = data.news
+      allNews.map((value, index, array) => {
+        newsType.innerHTML += `
+        <div class="col-lg-4">
+        <img src="${value.image}" alt="" style="width:100%;height:200px" class=good">
+        <h3>Title:${value.title.slice(0, 100)}</h3>
+      <small>Details:${value.text.slice(0, 50)}</small> 
+      <small>Details:${value.content}</small>
+      </div>
+       `;
+      });
+    });
+}
+
+// allData()
+homeData()
