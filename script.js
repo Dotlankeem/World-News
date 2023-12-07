@@ -61,7 +61,7 @@ function homeData() {
         <img src="https://plus.unsplash.com/premium_photo-1679496830187-5b7a3def833e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D" alt="" style="width:100%;height:200px" class=good">
         <h3>Title:${value.title}</h3>
       <small>Details:${value.text.slice(0, 100)}</small> 
-      <div><a href="${value.url}"><button>Read More</button></a></div>
+      <div><a href="${value.url}"><button>Read More</button></a></div>c
 
       </div>
        `;
